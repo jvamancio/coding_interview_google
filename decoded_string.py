@@ -1,3 +1,6 @@
+#Uma string codificada nesse tipo de pergunta segue um padrão como "3[a2[c]]", que deve ser decodificada para "accaccacc"
+
+# recebe uma string e retorna uma string -> decode_string(s: str) -> str
 def decode_string(s: str) -> str:
     stack = []
     current_num = 0
@@ -21,6 +24,6 @@ def decode_string(s: str) -> str:
     return current_string
 
 # Exemplo de uso
-encoded_string = "3[a2[c]]"
+encoded_string = "3[a2[cb]]"
 decoded_string = decode_string(encoded_string)
 print(decoded_string)  # Saída: "accaccacc"

@@ -18,7 +18,7 @@ def urlify(s, true_length):
             new_string += s[i]
     return new_string
 
-s = "Mr J o h n Smith       "
-true_length = 1
+s = "Mr John Smith       "
+true_length = 13
 modified_string = urlify(s, true_length)
 print(modified_string)

@@ -34,4 +34,4 @@ nums = [6, 3, 7, 12, 1, 2, 0, 11]
 target = 9
 
 unique_pairs_count = count_pairs(nums, target)
-print("Número de pares únicos com soma:",target,"é ", unique_pairs_count)  # Saída: 3
+print("Número de pares únicos com soma:",target,"é ", unique_pairs_count)  # Saída: 2
